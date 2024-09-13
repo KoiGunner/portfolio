@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Outfit", sans-serif;
+    font-style: normal;
+}
+
+/* icons edit */
+
+/* navigation bar upset */
+
+:root {
+    --color-navigation: aquamarine;
+    --left-color: green;
+    --middle-color: coral;
+    --footer-color: skyblue;
+    --body-color: yellow;
+    --right-color: #e7dd96;
+}
+
+.navigation-bar{
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: var(--color-navigation);
+    justify-content: space-between;
+}
+
+.left-side{
+    background-color: red;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin-left: 20%;
+}
+
+.middle-side{
+    background-color: red;
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 20%;
+}
+
+.article-part {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 400px;
+    background-color: blue;
+}
+
+.left-part {
+    background-color: var(--left-color);
+    height: 150px;
+    width: 10%;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.right-part {
+    background-color: var(--right-color);
+    height: 150px;
+    width: 10%;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.middle-part{
+    background-color: var(--middle-color);
+    height: 150px;
+    width: 10%;
+    border-radius: 5px;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+.div-provi {
+    width: 100%;
+    height: 400px;
+    background-color: skyblue;
+}
+
+body {
+    width: 100%;
+    background-color: var(--body-color);
+
+}
+
+footer {
+    width: 100%;
+    height: 300px;
+    background-color: var(--footer-color);
+}
+
+
+/* 
+    Corpo do site
+*/
+
+
+/* 
+    Rodapé e afins
+*/
+
+/* 
+    Links e barras de navegação
+*/
