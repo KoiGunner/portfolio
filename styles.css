@@ -34,7 +34,7 @@
     height: 50px;
     display: flex;
     justify-content: center;
-    margin-left: 20%;
+    margin-left: 10%;
 }
 
 .middle-side{
@@ -42,7 +42,7 @@
     height: 50px;
     display: flex;
     justify-content: space-around;
-    margin-right: 20%;
+    
 }
 
 .social-media {
@@ -50,8 +50,16 @@
     width: 200px;
     display: flex;
     justify-content: space-around;
+    margin-right: 10%;
     
 
+}
+
+.languages {
+    height: 50px;
+    width: 150px;
+    display: flex;
+    gap: 10px;
 }
 
 .welcome {
@@ -141,6 +149,14 @@ footer {
     display: flex;
     justify-content: space-around;
 }
+
+.final-division{
+    width: auto;
+    height: 50px;
+    background-color: aliceblue;
+}
+
+
 
 /* 
     Links e barras de navegação
