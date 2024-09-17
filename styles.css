@@ -63,8 +63,10 @@
 }
 
 .welcome {
-    height: 500px;
+    height: 400px;
     width: 100%;
+    padding-right: 10%;
+    padding-left: 10%;
 }
 
 .bem-vindo{
@@ -87,33 +89,38 @@ p {
     width: 100%;
     height: 400px;
     background-color: skyblue;
-    padding-top: 150px;
+    padding-top: 45px;
 }
 
+.web-image {
+    height: 400px;
+    width: 450px;
+    background-color: red;
+    float: right;
+}
 /* 
     Corpo do site
 */
 
 .left-part {
     background-color: var(--left-color);
-    height: 150px;
-    width: 10%;
+    height: 300px;
+    width: 15%;
     border-radius: 5px;
-    padding: 5px;
 }
 
 .right-part {
     background-color: var(--right-color);
-    height: 10%;
-    width: 10%;
+    height: 300px;
+    width: 15%;
     border-radius: 5px;
     padding: 5px;
 }
 
 .middle-part{
     background-color: var(--middle-color);
-    height: 150px;
-    width: 10%;
+    height: 300px;
+    width: 15%;
     border-radius: 5px;
     padding: 5px;
     justify-content: space-between;
